@@ -1,0 +1,21 @@
+//Copy into https://www.json-generator.com/
+
+{categories:[
+  '{{repeat(5, 7)}}',
+  {
+    id: '{{objectId()}}',
+    name: 'Category - {{firstName()}} {{surname()}}',
+    productos: [
+      '{{repeat(5, 20)}}',
+      {
+        id: '{{objectId()}}',
+        name: 'Product - {{firstName()}} {{surname()}}',
+        price: '{{floating(20, 400, 2, "0.00")}}',
+        description: '{{lorem(1, "paragraphs")}}',
+        image: 'https://picsum.photos/200/200/?image={{integer(0,300)}}',
+        valoration: '{{integer(3,5)}}',
+        stock: '{{integer(1,20)}}'
+      }   
+    ]
+  }
+]}

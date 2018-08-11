@@ -1,16 +1,655 @@
 {
-  "posts":[
+  "categories": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": "5b6f0d8bb3dfbfc2f9d3f35b",
+      "name": "Category - Dora Suarez",
+      "productos": [
+        {
+          "id": "5b6f0d8b4d37a5f7eb9829e3",
+          "name": "Product - Madden Mooney",
+          "price": 391.54,
+          "description": "Consequat qui labore minim ad laboris esse nulla. Ea cillum elit in excepteur. Ex in laboris elit Lorem enim ad. Culpa ea nulla non nostrud aute officia sunt nulla. Quis sunt velit labore ad dolor fugiat pariatur duis est occaecat sint mollit fugiat. Aliqua voluptate esse aliqua Lorem ipsum laborum minim mollit minim. Aute labore do in incididunt est pariatur qui consequat dolor.\r\n",
+          "image": "https://picsum.photos/200/200/?image=190",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b83bbd02f58790bb2",
+          "name": "Product - Fowler Mcneil",
+          "price": 145.91,
+          "description": "Occaecat ex ullamco est ad. Reprehenderit qui ipsum culpa magna sint sunt fugiat nostrud sint nisi non ipsum mollit. Do sit qui labore excepteur ea veniam mollit non quis anim velit. Ullamco deserunt anim labore eu incididunt velit exercitation duis.\r\n",
+          "image": "https://picsum.photos/200/200/?image=257",
+          "valoration": 3,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b1a77edad82b47373",
+          "name": "Product - Patti Wilder",
+          "price": 229.29,
+          "description": "Occaecat sunt nostrud et officia Lorem nulla quis consequat duis fugiat cillum magna. Duis nulla proident aute id fugiat laboris laborum est pariatur nisi cillum ea laboris. Velit sint commodo aute sunt nulla non velit magna ullamco amet est labore dolore. Veniam veniam deserunt cillum consequat sint ad quis consectetur id esse adipisicing ex. Qui adipisicing eu eu ipsum exercitation dolor esse. Duis aute cillum Lorem in minim irure fugiat ea consequat occaecat eu ex. Excepteur cillum ad Lorem duis eiusmod occaecat.\r\n",
+          "image": "https://picsum.photos/200/200/?image=171",
+          "valoration": 3,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b7df23bf2dcfedbca",
+          "name": "Product - Dillon Bird",
+          "price": 130.59,
+          "description": "Proident in velit ipsum aute laborum non sint deserunt irure aute mollit magna. Quis sunt proident id quis velit commodo est mollit consequat. Magna mollit id consectetur minim ex qui laboris laboris reprehenderit velit pariatur cillum eu ullamco. Ad dolore non culpa mollit minim occaecat mollit duis laboris excepteur id et. Minim qui enim veniam ut. Do ipsum ipsum ad proident id sint culpa. Proident dolore cillum in laboris duis incididunt laborum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=193",
+          "valoration": 3,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8b21dbae54dc52e019",
+          "name": "Product - Suarez Santiago",
+          "price": 67.16,
+          "description": "Consectetur Lorem cillum sint elit ullamco et sit. Est aliquip cillum cillum nulla enim. Sunt aliquip Lorem occaecat ullamco enim qui est laboris commodo.\r\n",
+          "image": "https://picsum.photos/200/200/?image=180",
+          "valoration": 5,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b8c7c4715a51d48ed",
+          "name": "Product - Stout Long",
+          "price": 40.35,
+          "description": "Nisi occaecat dolore magna consequat et velit velit aute occaecat commodo et fugiat est. Laboris quis proident aliqua ex labore. Fugiat laboris nulla aliqua dolor voluptate tempor excepteur occaecat. Mollit voluptate amet amet dolore minim sunt laboris ullamco aliquip officia anim deserunt occaecat. Eu sunt laboris esse reprehenderit fugiat est do tempor qui ipsum do ex. Tempor in consectetur sit incididunt magna do ea sint minim magna esse. Aliquip aute minim quis esse anim dolore deserunt consectetur ut Lorem occaecat incididunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=37",
+          "valoration": 5,
+          "stock": 2
+        },
+        {
+          "id": "5b6f0d8b4f2d65d41a8a0fcf",
+          "name": "Product - Opal Farrell",
+          "price": 51.71,
+          "description": "Reprehenderit fugiat est dolor nulla veniam nisi magna ut exercitation ullamco adipisicing et. Eu esse sit voluptate adipisicing ea deserunt ex laboris. Eiusmod incididunt non consequat officia sunt enim duis sit aliqua veniam. Fugiat adipisicing ullamco nisi amet eiusmod nulla exercitation ut magna officia ut officia nostrud.\r\n",
+          "image": "https://picsum.photos/200/200/?image=201",
+          "valoration": 3,
+          "stock": 18
+        },
+        {
+          "id": "5b6f0d8b01efc317acab139d",
+          "name": "Product - Rosales Phillips",
+          "price": 47.7,
+          "description": "Aute dolore est esse irure nostrud proident. Voluptate exercitation commodo dolor deserunt laborum occaecat amet eu aliqua elit. Nisi non deserunt sint excepteur non fugiat exercitation.\r\n",
+          "image": "https://picsum.photos/200/200/?image=108",
+          "valoration": 4,
+          "stock": 10
+        },
+        {
+          "id": "5b6f0d8b95f8cab6ce0c1264",
+          "name": "Product - Mack Carson",
+          "price": 355.77,
+          "description": "Sunt cillum eu do incididunt fugiat reprehenderit ex culpa excepteur ullamco. Tempor anim do et laboris minim enim sit enim nulla. Exercitation cupidatat incididunt esse consequat cillum exercitation fugiat consequat laboris non est elit.\r\n",
+          "image": "https://picsum.photos/200/200/?image=254",
+          "valoration": 3,
+          "stock": 2
+        },
+        {
+          "id": "5b6f0d8b55b78f4f8d6a83bd",
+          "name": "Product - Maribel Farley",
+          "price": 211.22,
+          "description": "Dolor ipsum reprehenderit fugiat quis commodo ut consectetur mollit ullamco. Nisi commodo ea qui nisi quis irure magna nisi sunt sint veniam. Est reprehenderit in est anim et cillum aliquip aliqua magna minim eu.\r\n",
+          "image": "https://picsum.photos/200/200/?image=102",
+          "valoration": 5,
+          "stock": 4
+        },
+        {
+          "id": "5b6f0d8b675a92aa5a450b89",
+          "name": "Product - Reva Oliver",
+          "price": 135.05,
+          "description": "Veniam ipsum cupidatat cillum fugiat voluptate do deserunt est. Dolor pariatur enim dolore sunt excepteur et proident adipisicing consectetur laborum tempor. Amet tempor non et anim ea duis. Laborum nisi labore consectetur proident laboris nostrud ipsum laboris eiusmod ad tempor amet. Labore excepteur culpa commodo tempor nulla consequat pariatur dolor deserunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=241",
+          "valoration": 3,
+          "stock": 15
+        },
+        {
+          "id": "5b6f0d8bf4ae3cb3210e334b",
+          "name": "Product - Henderson Allen",
+          "price": 211.11,
+          "description": "Ullamco duis proident reprehenderit occaecat eu esse eu in proident ipsum elit elit. Enim nostrud sit est dolor consectetur minim quis eu exercitation eiusmod duis adipisicing. Dolor nulla dolore eu occaecat veniam proident laboris nulla sit ullamco est nisi excepteur est. Velit tempor ad laboris et adipisicing aute. Eu ipsum voluptate ipsum et aliquip elit quis aliqua nulla proident ea tempor. Non deserunt pariatur dolore sunt nulla in quis esse nostrud consequat aute ullamco. Magna magna adipisicing duis cupidatat consequat.\r\n",
+          "image": "https://picsum.photos/200/200/?image=6",
+          "valoration": 3,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8beadb8859986793c0",
+          "name": "Product - Jacquelyn Sanchez",
+          "price": 63.31,
+          "description": "Nostrud exercitation ex cupidatat non. Est aliquip non id occaecat magna duis voluptate aliquip enim sint consectetur laboris enim. Eiusmod duis incididunt ullamco labore pariatur aute excepteur.\r\n",
+          "image": "https://picsum.photos/200/200/?image=39",
+          "valoration": 5,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8b68ed43e57e123582",
+          "name": "Product - Kaye Lara",
+          "price": 378.07,
+          "description": "Eu in amet reprehenderit quis dolor duis. Non voluptate minim ullamco sunt laborum anim est ex tempor eu. Veniam sint cupidatat quis culpa cillum non incididunt elit ad.\r\n",
+          "image": "https://picsum.photos/200/200/?image=176",
+          "valoration": 4,
+          "stock": 18
+        }
+      ]
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "5b6f0d8bfc3517c43327a286",
+      "name": "Category - Hayden Hobbs",
+      "productos": [
+        {
+          "id": "5b6f0d8be2d2f163634ee4d3",
+          "name": "Product - Calhoun Nichols",
+          "price": 255.18,
+          "description": "Non dolor culpa sunt exercitation nisi incididunt ullamco non officia est aute. Pariatur mollit ad dolore laborum eu. Voluptate eu adipisicing nostrud aliqua non elit excepteur cupidatat dolor sint.\r\n",
+          "image": "https://picsum.photos/200/200/?image=166",
+          "valoration": 3,
+          "stock": 1
+        },
+        {
+          "id": "5b6f0d8b14f7e354a7a2c387",
+          "name": "Product - Lowe Myers",
+          "price": 365.6,
+          "description": "Minim cillum tempor ipsum aute consequat. Ipsum dolor non consequat cupidatat anim aliquip nisi. Exercitation adipisicing qui Lorem aliqua esse esse qui commodo.\r\n",
+          "image": "https://picsum.photos/200/200/?image=227",
+          "valoration": 4,
+          "stock": 19
+        },
+        {
+          "id": "5b6f0d8bba02da04266be86c",
+          "name": "Product - Muriel Pickett",
+          "price": 45.45,
+          "description": "Veniam velit voluptate id et tempor cillum eu mollit labore. Laborum adipisicing do do sit aliquip. Voluptate ad ipsum laborum veniam. Mollit Lorem amet excepteur commodo id incididunt id velit sunt enim veniam magna.\r\n",
+          "image": "https://picsum.photos/200/200/?image=161",
+          "valoration": 4,
+          "stock": 18
+        },
+        {
+          "id": "5b6f0d8b089b9185590436ff",
+          "name": "Product - Betsy Lane",
+          "price": 225.71,
+          "description": "Ea qui aliquip dolore laborum magna aliquip ex ea reprehenderit sint. Incididunt laborum magna eu ex esse eu. Ut id ut ullamco dolor nostrud non veniam excepteur consectetur quis mollit. Eu magna minim nostrud voluptate dolor nulla ipsum exercitation velit voluptate. Ad nostrud ipsum qui occaecat commodo et exercitation esse. Esse culpa commodo ullamco nisi.\r\n",
+          "image": "https://picsum.photos/200/200/?image=292",
+          "valoration": 4,
+          "stock": 15
+        },
+        {
+          "id": "5b6f0d8b662131f1dc8dd22e",
+          "name": "Product - Hess Talley",
+          "price": 85.29,
+          "description": "Elit esse consequat consequat dolor. Ipsum id est ad pariatur aliquip aliqua consequat. Nulla sit veniam et irure id.\r\n",
+          "image": "https://picsum.photos/200/200/?image=38",
+          "valoration": 3,
+          "stock": 11
+        },
+        {
+          "id": "5b6f0d8b4898aa0a8da7a762",
+          "name": "Product - Jewell Morgan",
+          "price": 327.16,
+          "description": "Non non proident sit aliqua. Labore incididunt ipsum exercitation eiusmod. Officia in eiusmod nulla occaecat ullamco proident. Nostrud Lorem aute nisi pariatur dolor. Fugiat mollit et eu aliquip laboris incididunt ipsum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=60",
+          "valoration": 5,
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "id": "5b6f0d8b68b095adab702d5a",
+      "name": "Category - Caldwell Sears",
+      "productos": [
+        {
+          "id": "5b6f0d8bb63e6b5b417acc0c",
+          "name": "Product - Julie Carrillo",
+          "price": 40.57,
+          "description": "Voluptate nostrud incididunt ipsum nulla velit consequat est. Sunt laboris culpa cupidatat ut nisi est commodo Lorem aliquip. Pariatur ut incididunt irure aliqua occaecat amet. Nisi esse pariatur non occaecat. Sunt nostrud labore occaecat eu voluptate incididunt ea.\r\n",
+          "image": "https://picsum.photos/200/200/?image=28",
+          "valoration": 4,
+          "stock": 6
+        },
+        {
+          "id": "5b6f0d8b479c1d562ac9f96c",
+          "name": "Product - Kim Campbell",
+          "price": 146.52,
+          "description": "In ipsum nostrud sunt ea aliquip tempor. Officia sint labore ullamco Lorem culpa adipisicing. Irure sunt qui tempor veniam exercitation. Lorem aute voluptate velit incididunt esse proident. Ex elit qui ad aute. Incididunt est incididunt fugiat irure culpa ipsum nulla aliqua irure in et commodo.\r\n",
+          "image": "https://picsum.photos/200/200/?image=120",
+          "valoration": 5,
+          "stock": 14
+        },
+        {
+          "id": "5b6f0d8bbca64f7eeb96499c",
+          "name": "Product - Beverly Wallace",
+          "price": 181.71,
+          "description": "Laboris ut qui veniam deserunt. Occaecat consequat do nostrud deserunt quis minim excepteur cillum qui sint sunt esse. Veniam nisi id aliquip qui. Magna veniam officia magna consectetur duis elit ad ex ipsum dolor incididunt amet. Consectetur irure cillum ex eiusmod laborum irure tempor sunt mollit quis amet incididunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=254",
+          "valoration": 4,
+          "stock": 11
+        },
+        {
+          "id": "5b6f0d8b2a81d670cbd2feac",
+          "name": "Product - Blackwell Delacruz",
+          "price": 26.25,
+          "description": "Nisi incididunt officia sit et Lorem elit ipsum ea ex ad sunt non minim. Est cupidatat tempor laboris ea officia nostrud aliquip cillum nulla commodo id. Fugiat eu laborum quis laborum esse aute adipisicing consectetur tempor in anim. Fugiat officia tempor do irure id irure ea aute ad dolor nulla cillum aliqua. Sit ullamco laboris do tempor aute cillum est nulla.\r\n",
+          "image": "https://picsum.photos/200/200/?image=48",
+          "valoration": 5,
+          "stock": 2
+        },
+        {
+          "id": "5b6f0d8b2ec1d59a529cd330",
+          "name": "Product - Rachelle Garrison",
+          "price": 54.59,
+          "description": "Aliquip est excepteur tempor duis culpa deserunt fugiat consectetur eu dolor magna proident. Amet proident eiusmod mollit reprehenderit culpa velit. Ex consectetur quis ex esse deserunt voluptate aliquip amet commodo.\r\n",
+          "image": "https://picsum.photos/200/200/?image=12",
+          "valoration": 4,
+          "stock": 9
+        },
+        {
+          "id": "5b6f0d8bf67d5649107d7957",
+          "name": "Product - Norton Chan",
+          "price": 276.97,
+          "description": "Ut elit id irure exercitation labore minim sint fugiat voluptate do. Pariatur ex exercitation reprehenderit officia magna est excepteur. Commodo exercitation Lorem non quis dolor do et velit sit laboris aliquip dolore. Cillum commodo Lorem eiusmod dolore ut anim sunt cupidatat ex irure culpa. Dolor eu ullamco exercitation magna minim tempor laboris officia ullamco exercitation. Quis minim et nostrud ad sunt ipsum magna consectetur minim ea. Labore minim ea aliqua qui sunt ea irure est.\r\n",
+          "image": "https://picsum.photos/200/200/?image=243",
+          "valoration": 4,
+          "stock": 10
+        },
+        {
+          "id": "5b6f0d8bf4873699da491223",
+          "name": "Product - Morrow Cortez",
+          "price": 280.65,
+          "description": "Pariatur cillum est nisi exercitation et ex magna. Cupidatat dolor laboris id excepteur sunt minim magna Lorem enim ut. Nisi anim et ad est excepteur anim et pariatur qui fugiat. Dolor elit incididunt pariatur aliqua officia. Nisi laborum laborum sunt deserunt non. Nulla proident exercitation ea consectetur labore amet id ipsum magna ullamco consequat. Mollit voluptate id non aliquip sit ut.\r\n",
+          "image": "https://picsum.photos/200/200/?image=129",
+          "valoration": 3,
+          "stock": 14
+        },
+        {
+          "id": "5b6f0d8bff96b9d3b5bbda88",
+          "name": "Product - Morris Abbott",
+          "price": 341.88,
+          "description": "Occaecat laboris nisi fugiat non sint laborum commodo eu. Sit ad id aliquip consequat consectetur do fugiat. Aliquip nisi consequat mollit consectetur.\r\n",
+          "image": "https://picsum.photos/200/200/?image=138",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8bc674d63fc83023c3",
+          "name": "Product - Kathryn Stevenson",
+          "price": 176.18,
+          "description": "Culpa consequat occaecat aliqua eu ex. Sunt duis velit cillum adipisicing tempor culpa ut esse fugiat aute. Laborum velit nostrud cupidatat ad enim aute eiusmod nisi amet voluptate cillum nisi sint id.\r\n",
+          "image": "https://picsum.photos/200/200/?image=223",
+          "valoration": 5,
+          "stock": 16
+        },
+        {
+          "id": "5b6f0d8b6bdc50b7bac8b0f7",
+          "name": "Product - Oliver Summers",
+          "price": 81.17,
+          "description": "Labore labore et reprehenderit id aute cillum exercitation quis magna. Ad enim ad deserunt aliqua non. Commodo mollit minim cupidatat exercitation dolor dolore. Occaecat quis anim fugiat enim enim qui. Reprehenderit amet ea eiusmod id amet ex aliqua. Culpa magna irure est dolor eiusmod irure Lorem.\r\n",
+          "image": "https://picsum.photos/200/200/?image=234",
+          "valoration": 4,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8bdacfd53baaad1e3c",
+          "name": "Product - Hammond Sherman",
+          "price": 118.52,
+          "description": "Proident duis laboris consequat nisi eiusmod eiusmod commodo magna nulla aliquip. Est esse minim ad ex in reprehenderit aliqua Lorem minim dolore sunt consequat. Tempor velit reprehenderit cillum officia eiusmod aliqua eiusmod qui magna.\r\n",
+          "image": "https://picsum.photos/200/200/?image=171",
+          "valoration": 3,
+          "stock": 11
+        },
+        {
+          "id": "5b6f0d8b09717c28a6406354",
+          "name": "Product - Jo Dean",
+          "price": 34.22,
+          "description": "Sit est esse laborum sit aute do dolore. Consequat in mollit deserunt id nostrud aute deserunt culpa in sunt. Id cillum aute aliquip voluptate quis velit id esse do laborum non magna labore dolor. Dolor ex magna fugiat sit voluptate labore ad aliqua. Excepteur nisi fugiat labore commodo consequat dolore ullamco ipsum do eiusmod.\r\n",
+          "image": "https://picsum.photos/200/200/?image=227",
+          "valoration": 3,
+          "stock": 1
+        }
+      ]
+    },
+    {
+      "id": "5b6f0d8b03612cace7586da0",
+      "name": "Category - Prince West",
+      "productos": [
+        {
+          "id": "5b6f0d8b243f92b8c019b108",
+          "name": "Product - Kristie Lewis",
+          "price": 162.56,
+          "description": "Ipsum aute fugiat laboris culpa mollit qui irure amet ex aliqua aliquip ipsum. Est ullamco ullamco ipsum magna. Quis eu dolore ad incididunt magna eu non dolor dolore pariatur esse laborum minim officia. Aute eiusmod ut consequat consectetur proident aute amet ut amet. Tempor dolore dolore esse ut qui aute. Aliqua nostrud esse cupidatat commodo dolor esse non ex pariatur eu ipsum sunt est qui.\r\n",
+          "image": "https://picsum.photos/200/200/?image=300",
+          "valoration": 3,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8bf7b314b49a53e3b9",
+          "name": "Product - Tran Salinas",
+          "price": 282.9,
+          "description": "Magna velit occaecat amet velit ut ex. In magna sint nostrud proident officia ullamco incididunt voluptate aute deserunt cupidatat anim reprehenderit sint. Et magna amet dolor voluptate reprehenderit elit cupidatat pariatur. Quis ipsum elit Lorem non dolor irure veniam ad nostrud do anim sunt. Excepteur tempor adipisicing officia et reprehenderit tempor nulla proident est adipisicing ea. Consequat et ipsum do excepteur tempor ullamco tempor. Nisi non sunt ullamco fugiat in occaecat dolore laborum excepteur aliqua velit duis fugiat.\r\n",
+          "image": "https://picsum.photos/200/200/?image=183",
+          "valoration": 4,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b93548b2f09c9f960",
+          "name": "Product - Castaneda Mcclain",
+          "price": 43.83,
+          "description": "Amet sit eiusmod reprehenderit exercitation. Tempor mollit mollit laborum reprehenderit cillum proident pariatur ad sint. Reprehenderit labore velit duis velit. Aute Lorem minim duis enim. Amet reprehenderit est aute aute duis exercitation et amet aliqua.\r\n",
+          "image": "https://picsum.photos/200/200/?image=67",
+          "valoration": 5,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b9252678e32a20c93",
+          "name": "Product - Carole Santana",
+          "price": 318.44,
+          "description": "Enim nulla aliqua fugiat non laboris qui elit nulla eu et sint. Enim et id deserunt aliquip aliquip. Ipsum ad esse non voluptate tempor. Fugiat excepteur Lorem ut officia veniam quis consectetur Lorem deserunt amet magna reprehenderit laboris.\r\n",
+          "image": "https://picsum.photos/200/200/?image=35",
+          "valoration": 5,
+          "stock": 18
+        },
+        {
+          "id": "5b6f0d8b2b346c1b1b87554d",
+          "name": "Product - Short Cruz",
+          "price": 170.19,
+          "description": "Aute officia ullamco aliquip enim enim elit voluptate dolore. Sunt dolor exercitation laborum anim est velit do culpa quis labore aliquip aliqua in reprehenderit. Nulla anim elit aute consequat in. Pariatur ad in eiusmod consequat ut exercitation aliqua elit laboris do in velit. Fugiat elit cillum amet eu. Proident tempor laborum velit sit adipisicing sunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=73",
+          "valoration": 5,
+          "stock": 15
+        },
+        {
+          "id": "5b6f0d8b3dca8c39fcf4fa5e",
+          "name": "Product - Duran Frazier",
+          "price": 38.48,
+          "description": "Lorem tempor magna sunt laboris incididunt officia amet cupidatat qui ullamco velit ex laboris. Do dolore nisi Lorem deserunt. Officia reprehenderit esse amet officia culpa ea proident laborum amet ea mollit exercitation sint nostrud. Amet ipsum veniam enim qui elit id id non minim consequat incididunt mollit anim cillum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=195",
+          "valoration": 5,
+          "stock": 14
+        },
+        {
+          "id": "5b6f0d8b4125175ce9b804fd",
+          "name": "Product - Tanya Herring",
+          "price": 279.14,
+          "description": "Laborum id cupidatat ipsum qui ex. Non ut proident quis dolore. Occaecat mollit sunt minim velit sit non proident fugiat do. Ipsum culpa in laboris dolor incididunt nostrud aliqua deserunt est pariatur labore ipsum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=189",
+          "valoration": 3,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b74a5e8a5c4698480",
+          "name": "Product - Gibson Bruce",
+          "price": 215.22,
+          "description": "Incididunt consequat ut nulla consequat ea laborum. Nulla ipsum irure sunt esse ad qui sint velit id voluptate. Laboris quis id mollit quis aliquip commodo voluptate aliqua sit incididunt sunt magna. Nulla laborum Lorem culpa quis voluptate labore incididunt amet. Fugiat quis Lorem anim officia reprehenderit veniam mollit duis sint incididunt do do eiusmod dolore. Quis aute voluptate nisi dolor reprehenderit eu ad voluptate excepteur et. Lorem in anim qui esse.\r\n",
+          "image": "https://picsum.photos/200/200/?image=284",
+          "valoration": 4,
+          "stock": 20
+        },
+        {
+          "id": "5b6f0d8bd135238a3fb70ff6",
+          "name": "Product - Parker Thomas",
+          "price": 142.19,
+          "description": "Mollit Lorem exercitation fugiat dolore dolore reprehenderit nisi cillum nostrud veniam. Labore quis anim laboris et aliqua. Velit magna dolor nulla velit cillum enim adipisicing in. Ullamco nostrud mollit ea elit ut.\r\n",
+          "image": "https://picsum.photos/200/200/?image=257",
+          "valoration": 4,
+          "stock": 11
+        },
+        {
+          "id": "5b6f0d8bded5a80b801ed345",
+          "name": "Product - Odom Figueroa",
+          "price": 321.52,
+          "description": "Aliquip commodo et nulla aliqua irure reprehenderit commodo veniam voluptate ut aute. Ad sit reprehenderit sunt cillum Lorem labore laboris laboris incididunt reprehenderit culpa. Laboris aliquip velit consectetur ullamco. Ut ea ex amet elit voluptate ea. Occaecat enim ex in laborum velit ea aute qui consequat esse ullamco qui aliqua deserunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=165",
+          "valoration": 3,
+          "stock": 17
+        },
+        {
+          "id": "5b6f0d8bbbedb7f1046b13d2",
+          "name": "Product - Sears Booth",
+          "price": 135.28,
+          "description": "Officia ex ad irure elit esse ullamco do nisi incididunt. Velit pariatur sint est commodo enim cupidatat exercitation Lorem excepteur ad aliqua nulla officia cupidatat. Magna excepteur qui anim quis eiusmod voluptate. Est in velit amet ex consequat excepteur dolore amet enim qui quis. Cupidatat pariatur magna laborum elit duis laboris consequat amet sit consectetur reprehenderit.\r\n",
+          "image": "https://picsum.photos/200/200/?image=170",
+          "valoration": 4,
+          "stock": 15
+        },
+        {
+          "id": "5b6f0d8b873d60a03d0f24cb",
+          "name": "Product - Jerri Case",
+          "price": 365.89,
+          "description": "Mollit ut cupidatat in eiusmod magna. Ex non duis elit culpa est. Laborum proident labore non et aliquip est do adipisicing id amet mollit ex labore qui. Deserunt dolore do ullamco proident duis quis deserunt magna esse commodo consequat duis. Sit dolore deserunt consectetur dolor. Consectetur quis elit occaecat nisi nulla esse magna excepteur nisi mollit enim commodo exercitation do.\r\n",
+          "image": "https://picsum.photos/200/200/?image=110",
+          "valoration": 4,
+          "stock": 7
+        },
+        {
+          "id": "5b6f0d8b6378ec8be2f5c364",
+          "name": "Product - Ruthie Guy",
+          "price": 171.23,
+          "description": "Id mollit irure est aliqua eu commodo ad. Veniam consectetur incididunt id esse excepteur duis ex ea. Irure incididunt nisi ad reprehenderit ut occaecat. Voluptate consectetur do eu excepteur. Commodo ut sunt eiusmod in ea reprehenderit in eu qui.\r\n",
+          "image": "https://picsum.photos/200/200/?image=261",
+          "valoration": 4,
+          "stock": 2
+        },
+        {
+          "id": "5b6f0d8bf2e8a8b92d65e9a2",
+          "name": "Product - Wells Clay",
+          "price": 238.23,
+          "description": "Ullamco incididunt voluptate aliqua ipsum laborum ipsum. Amet velit sunt id occaecat nostrud. Qui exercitation dolor ex do exercitation labore mollit aliquip Lorem nulla adipisicing anim quis. Cillum proident officia dolore ad laborum mollit occaecat id ipsum non. Lorem incididunt in et deserunt consectetur ad Lorem deserunt ex.\r\n",
+          "image": "https://picsum.photos/200/200/?image=148",
+          "valoration": 4,
+          "stock": 4
+        },
+        {
+          "id": "5b6f0d8bc3a10f954c7d9716",
+          "name": "Product - Sharron Salazar",
+          "price": 213.32,
+          "description": "Excepteur ullamco duis incididunt consectetur dolore. Reprehenderit ipsum dolor laborum elit ad ea. Magna aliqua mollit do sint exercitation nulla labore qui consequat minim qui aliqua.\r\n",
+          "image": "https://picsum.photos/200/200/?image=194",
+          "valoration": 3,
+          "stock": 9
+        },
+        {
+          "id": "5b6f0d8b006a864482de7559",
+          "name": "Product - Sanders Hahn",
+          "price": 279.15,
+          "description": "Do aliquip commodo ullamco cupidatat aliquip ea aute irure velit et. Laborum quis tempor non pariatur laboris sint consectetur laborum ad duis nostrud enim. Lorem sit elit deserunt occaecat.\r\n",
+          "image": "https://picsum.photos/200/200/?image=292",
+          "valoration": 5,
+          "stock": 2
+        },
+        {
+          "id": "5b6f0d8be7344eb9eae48b58",
+          "name": "Product - Ernestine Acosta",
+          "price": 379.13,
+          "description": "Minim est ipsum eiusmod ad deserunt sunt occaecat incididunt veniam adipisicing anim laboris incididunt. Irure proident sint Lorem sunt non ad occaecat culpa irure officia cillum non aliqua veniam. Cillum eiusmod elit qui ut labore adipisicing sint officia laborum qui mollit ut. Qui et consectetur ad non excepteur ipsum consequat ut veniam.\r\n",
+          "image": "https://picsum.photos/200/200/?image=133",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b769f8de40d8b7438",
+          "name": "Product - Roxanne Noble",
+          "price": 361.49,
+          "description": "Nulla ullamco ullamco est voluptate. Pariatur consectetur enim cupidatat amet non consequat fugiat incididunt. Sunt non sunt fugiat labore eu deserunt id aliqua dolore incididunt.\r\n",
+          "image": "https://picsum.photos/200/200/?image=6",
+          "valoration": 3,
+          "stock": 20
+        }
+      ]
+    },
+    {
+      "id": "5b6f0d8bc7ee6d5c2a9dd503",
+      "name": "Category - Sweet Gallagher",
+      "productos": [
+        {
+          "id": "5b6f0d8b27259358c3f25b0c",
+          "name": "Product - Delores Webster",
+          "price": 384.51,
+          "description": "Sint ad ex do consequat deserunt deserunt. Nostrud occaecat amet ad minim laborum exercitation aute sit velit laborum ex anim officia. Officia sit aliqua dolor in Lorem. Qui eiusmod voluptate eu velit Lorem proident.\r\n",
+          "image": "https://picsum.photos/200/200/?image=133",
+          "valoration": 5,
+          "stock": 6
+        },
+        {
+          "id": "5b6f0d8b3a0ab8af035bcd53",
+          "name": "Product - Sloan Hancock",
+          "price": 111.35,
+          "description": "Duis tempor exercitation sit eu. Lorem eu minim laborum anim Lorem voluptate. Est exercitation est aliqua aliquip nostrud fugiat anim ipsum est ea do nisi laboris fugiat. Ex sit aliqua consequat enim consectetur dolor nulla minim aute nisi sint deserunt nostrud proident. Enim proident ullamco fugiat non deserunt reprehenderit nostrud. Ad sit adipisicing id dolore proident elit elit. Ex do cillum enim Lorem qui.\r\n",
+          "image": "https://picsum.photos/200/200/?image=239",
+          "valoration": 4,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b940c525241f2b796",
+          "name": "Product - Ruiz Molina",
+          "price": 146.62,
+          "description": "Officia aute aliquip aliquip duis ex proident labore. Sint do nostrud ipsum dolore ullamco labore qui amet excepteur deserunt cupidatat anim exercitation. Voluptate sunt eiusmod ad aliquip. Do id tempor deserunt deserunt minim quis adipisicing fugiat consequat officia cupidatat dolore et. Eu officia consectetur ex occaecat.\r\n",
+          "image": "https://picsum.photos/200/200/?image=49",
+          "valoration": 5,
+          "stock": 6
+        },
+        {
+          "id": "5b6f0d8b2862e0ea48524bae",
+          "name": "Product - Kathy Vazquez",
+          "price": 273.67,
+          "description": "Ex tempor commodo sunt adipisicing. Anim eu id fugiat et. Aliqua non amet est excepteur labore id incididunt ex minim do. Duis consectetur aute exercitation aute cupidatat velit cillum minim consectetur deserunt excepteur irure. Eu eu incididunt ut voluptate fugiat non et.\r\n",
+          "image": "https://picsum.photos/200/200/?image=57",
+          "valoration": 5,
+          "stock": 6
+        },
+        {
+          "id": "5b6f0d8b9fbf7cf918c11bef",
+          "name": "Product - Tessa Oneil",
+          "price": 358.42,
+          "description": "Excepteur dolor irure reprehenderit labore non sit magna et. Amet deserunt sit exercitation quis adipisicing irure cillum sint laborum reprehenderit excepteur tempor laboris. Sit nisi enim ea labore minim commodo magna mollit esse excepteur aliqua pariatur duis excepteur. Pariatur excepteur eu dolore consequat qui reprehenderit pariatur consectetur mollit dolor et irure. Commodo officia ullamco fugiat qui duis tempor. Occaecat excepteur adipisicing commodo velit ut veniam. Occaecat velit commodo esse dolor qui est labore veniam laborum et in excepteur.\r\n",
+          "image": "https://picsum.photos/200/200/?image=145",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b9f2ab8febd342e2c",
+          "name": "Product - Hollie Klein",
+          "price": 198.67,
+          "description": "Anim fugiat aliqua ut ipsum veniam pariatur magna ex nostrud ea consequat minim. Ullamco sunt laboris consequat excepteur do elit ex. Culpa veniam velit laborum aliquip nulla sint velit sunt eiusmod nisi.\r\n",
+          "image": "https://picsum.photos/200/200/?image=67",
+          "valoration": 3,
+          "stock": 19
+        },
+        {
+          "id": "5b6f0d8be53e30bbeb097fa8",
+          "name": "Product - Brandie Cummings",
+          "price": 84.37,
+          "description": "Aliquip id sunt anim anim ullamco sunt in sunt magna velit ad voluptate dolore dolor. Reprehenderit id et occaecat elit consectetur aute labore excepteur veniam elit cillum cillum. Magna consequat laboris duis ut officia occaecat. Proident proident consectetur sit amet nostrud. Amet do non eiusmod fugiat. Et sint culpa et ex aliqua ea. Nisi aute veniam elit aute occaecat esse et aliqua est Lorem.\r\n",
+          "image": "https://picsum.photos/200/200/?image=166",
+          "valoration": 4,
+          "stock": 8
+        },
+        {
+          "id": "5b6f0d8be6eb27018aab23f9",
+          "name": "Product - Vasquez Bailey",
+          "price": 244.88,
+          "description": "Proident in ipsum et labore mollit non sunt consectetur voluptate ex do excepteur velit do. Irure minim eu excepteur eiusmod tempor nostrud et ad qui. Fugiat in fugiat sunt excepteur pariatur aliqua pariatur ullamco duis reprehenderit velit incididunt. Magna veniam irure aute voluptate exercitation labore sunt eu. Quis fugiat ut excepteur exercitation ipsum cillum laboris fugiat ipsum ex consectetur aute laboris minim. Magna aliqua culpa qui mollit aliquip duis labore nisi enim commodo minim laboris et laboris. Aute enim ex non adipisicing anim amet cillum laboris est eiusmod.\r\n",
+          "image": "https://picsum.photos/200/200/?image=55",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8b464578267e204e27",
+          "name": "Product - Alyson Sweet",
+          "price": 180.09,
+          "description": "Quis magna mollit pariatur labore reprehenderit cupidatat nulla voluptate. Mollit commodo culpa ut quis cupidatat dolor. Et in adipisicing non aliqua magna aliqua dolor. Culpa aliqua cillum ut aute velit velit incididunt qui mollit eu cillum do consequat. Proident esse aliquip reprehenderit officia occaecat laborum enim. Consequat occaecat amet cillum elit irure et quis dolor laboris laborum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=60",
+          "valoration": 4,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b22961d259ebd4293",
+          "name": "Product - Benita Mccarty",
+          "price": 293.77,
+          "description": "Enim commodo elit duis nostrud nostrud elit ipsum tempor est laborum veniam dolore incididunt. Eu nostrud ullamco minim cillum. Ipsum ipsum aliqua id duis est laboris aliqua amet laboris do et laboris aliqua. Id ullamco pariatur aute laborum magna mollit. Nostrud sit proident aute culpa reprehenderit tempor id proident deserunt in veniam do veniam cillum. Enim veniam dolor laborum labore dolor nulla laboris proident officia elit anim sit.\r\n",
+          "image": "https://picsum.photos/200/200/?image=180",
+          "valoration": 3,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8bbb3a886e6dcfdfa3",
+          "name": "Product - Lorena Flynn",
+          "price": 304.55,
+          "description": "Reprehenderit aliquip deserunt cillum in et sit nostrud. Proident dolore incididunt nulla qui. Culpa commodo non quis labore labore enim qui esse. Voluptate id est ullamco cillum ea deserunt. Reprehenderit laboris ullamco voluptate eiusmod excepteur.\r\n",
+          "image": "https://picsum.photos/200/200/?image=162",
+          "valoration": 3,
+          "stock": 5
+        },
+        {
+          "id": "5b6f0d8b78a176b7b42281d4",
+          "name": "Product - Dunn Mercado",
+          "price": 95.67,
+          "description": "Irure in proident proident Lorem aliqua incididunt reprehenderit enim ea. Consequat sit consequat nostrud culpa exercitation nostrud. Proident in eu minim enim non ea sint do ea commodo laborum. In nostrud reprehenderit exercitation pariatur quis quis quis sunt est. Fugiat ex ipsum tempor quis quis in.\r\n",
+          "image": "https://picsum.photos/200/200/?image=186",
+          "valoration": 4,
+          "stock": 18
+        },
+        {
+          "id": "5b6f0d8bdf7f8c997a22f5f6",
+          "name": "Product - Selma Gomez",
+          "price": 33.41,
+          "description": "Eiusmod qui pariatur ex ipsum excepteur esse reprehenderit anim labore Lorem irure non laboris. Magna in culpa voluptate pariatur anim enim est ad occaecat. Esse non amet aliqua veniam id ad. Ut velit consectetur irure voluptate sunt nisi magna nisi nostrud. Amet ipsum excepteur irure do anim labore cupidatat amet amet proident. Nisi exercitation cupidatat commodo ipsum dolor.\r\n",
+          "image": "https://picsum.photos/200/200/?image=214",
+          "valoration": 4,
+          "stock": 13
+        },
+        {
+          "id": "5b6f0d8b442f3649472cebb9",
+          "name": "Product - Denise Mcfadden",
+          "price": 353.64,
+          "description": "Reprehenderit excepteur irure voluptate eu esse cupidatat sunt aute est. Mollit veniam deserunt commodo duis duis in ipsum aliquip consequat laborum. Nisi exercitation esse eu incididunt enim aute cillum adipisicing excepteur sit id elit sit ex.\r\n",
+          "image": "https://picsum.photos/200/200/?image=211",
+          "valoration": 5,
+          "stock": 14
+        },
+        {
+          "id": "5b6f0d8b84dca578d5ac89dd",
+          "name": "Product - Geraldine Gates",
+          "price": 312.36,
+          "description": "Sit laborum est id sint fugiat ullamco elit pariatur deserunt. Id amet quis cupidatat mollit consectetur exercitation irure nulla duis laborum duis occaecat nisi amet. Magna cupidatat aliqua reprehenderit sit consequat id adipisicing Lorem sit minim. Labore reprehenderit officia proident incididunt laborum.\r\n",
+          "image": "https://picsum.photos/200/200/?image=4",
+          "valoration": 4,
+          "stock": 8
+        },
+        {
+          "id": "5b6f0d8b8d8aaf7211cc3216",
+          "name": "Product - Lauri Hopkins",
+          "price": 352.27,
+          "description": "Lorem dolore eiusmod ea tempor officia reprehenderit ullamco est Lorem anim labore voluptate eu reprehenderit. Tempor eu duis aute enim in nisi dolor occaecat adipisicing aute. Consequat do et incididunt consequat anim eu eiusmod pariatur. Ipsum commodo labore pariatur incididunt laboris cupidatat nulla. Ex labore sit laborum cillum anim minim non nisi velit incididunt exercitation in reprehenderit. Nisi sint laboris sit sit pariatur duis proident aute duis est laboris ea nulla adipisicing. Non aliqua pariatur cupidatat fugiat magna sit ex duis duis pariatur.\r\n",
+          "image": "https://picsum.photos/200/200/?image=258",
+          "valoration": 4,
+          "stock": 3
+        },
+        {
+          "id": "5b6f0d8ba9b2402ae6bd814d",
+          "name": "Product - Alba Patterson",
+          "price": 45.66,
+          "description": "Mollit ullamco reprehenderit et Lorem. Sit commodo sit tempor eu occaecat. Lorem sunt adipisicing reprehenderit consectetur anim enim consectetur minim sit mollit non esse.\r\n",
+          "image": "https://picsum.photos/200/200/?image=15",
+          "valoration": 3,
+          "stock": 20
+        },
+        {
+          "id": "5b6f0d8b0278458ddfa37956",
+          "name": "Product - Nikki Oneill",
+          "price": 38.1,
+          "description": "Id excepteur adipisicing ut ipsum ad velit officia ut quis. Commodo enim ex ex velit deserunt laborum. Labore esse proident Lorem labore cillum sit occaecat pariatur ipsum ullamco aute.\r\n",
+          "image": "https://picsum.photos/200/200/?image=227",
+          "valoration": 5,
+          "stock": 16
+        },
+        {
+          "id": "5b6f0d8b0ee8c1700e493172",
+          "name": "Product - Elvia Lynn",
+          "price": 233.58,
+          "description": "Nisi ea nostrud est commodo laboris dolore. Adipisicing nulla exercitation ea irure. Fugiat excepteur eu excepteur voluptate cupidatat commodo commodo sunt proident.\r\n",
+          "image": "https://picsum.photos/200/200/?image=165",
+          "valoration": 4,
+          "stock": 2
+        }
+      ]
     }
   ]
 }
