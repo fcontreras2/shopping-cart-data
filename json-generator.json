@@ -5,7 +5,7 @@
   {
     id: '{{objectId()}}',
     name: 'Category - {{firstName()}} {{surname()}}',
-    productos: [
+    products: [
       '{{repeat(5, 20)}}',
       {
         id: '{{objectId()}}',
