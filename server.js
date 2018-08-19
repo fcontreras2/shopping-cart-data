@@ -11,8 +11,17 @@ server.use(middlewares);
 server.get('/search', (req, res) => {
   var response = [];
   var data = require('./db.json');
+  var categories = data.categories;
+  if (req.query['filters']) {
+    var filters = req.query['filters'].split('-')
+    categories = categories.filter((e) => {
+      return filters.indexOf(e.id) !== -1
+    })
+  }
+
+
   if (req.query['query']) {
-    data.categories.forEach(function(element) {
+    categories.forEach(function(element) {
       var products = element.products.slice();
       products = products.filter(function(e) {
         return e.name.toLowerCase().includes(req.query['query'].toLowerCase()) 
@@ -25,7 +34,7 @@ server.get('/search', (req, res) => {
     })
     res.json(response)
   } else {
-    res.json(data.categories);
+    res.json(categories);
   }
 })
 
