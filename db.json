@@ -1,4 +1,66 @@
 {
+  "menu": {
+    "breakfast": [
+      {
+        "id": "1",
+        "title": "Café americano",
+        "price": 5,
+        "image": "cafe-americano.png"
+      },
+      {
+        "id": "2",
+        "title": "Café con leche",
+        "price": 7,
+        "image": "cafe-leche.jpg"
+      },
+      {
+        "id": "3",
+        "title": "Sandwich de jamón y queso",
+        "price": 10,
+        "image": "sandwich.jpg"
+      },
+      {
+        "id": "4",
+        "title": "Jugo natural",
+        "price": 7,
+        "image": "jugo.jpg"
+      }
+    ],
+    "rest": [
+      {
+        "id": "5",
+        "title": "Ensalada de frutas",
+        "price": 8,
+        "image": "ensalda.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Arroz con pollo",
+        "price": 12,
+        "image": "arroz-pollo.jpg"
+      },
+      {
+        "id": "7",
+        "title": "Pasta con vegetales",
+        "price": 11,
+        "image": "pasta.jpg"
+      },
+      {
+        "id": "8",
+        "title": "Sopa Criolla",
+        "price": 10,
+        "image": "sopa.jpg"
+      },
+      {
+        "id": "9",
+        "title": "Gaseosa",
+        "price": 4,
+        "image": "gaseosa.jpg"
+      }
+    ]
+  },
+  "orders": [],
+  "history": [],
   "categories": [
     {
       "id": "5b79b3aec9e786d6d48787cc",

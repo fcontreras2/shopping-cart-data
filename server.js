@@ -24,7 +24,7 @@ server.get('/search', (req, res) => {
     categories.forEach(function(element) {
       var products = element.products.slice();
       products = products.filter(function(e) {
-        return e.name.toLowerCase().includes(req.query['query'].toLowerCase()) 
+        return e.name.toLowerCase().includes(req.query['query'].toLowerCase())
       });
       if (products.length > 0) {
         var category = Object.assign({},element);
@@ -36,6 +36,15 @@ server.get('/search', (req, res) => {
   } else {
     res.json(categories);
   }
+})
+
+// Add custom routes before JSON Server router
+server.get('/orders-list', (req, res) => {
+  var response = [];
+  var data = require('./db.json');
+  var orders = data.orders;
+  var history = data.history;
+  res.json({orders,history});
 })
 
 server.use(router);
